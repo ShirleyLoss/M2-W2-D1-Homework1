@@ -1,6 +1,7 @@
 header {
   background: url(images/central_park.jpg) 0 -200px no-repeat;  /* place image as background */
   background-size: 1500px;
+  /* background-size: 100%; */
   /*background-position: 0 -200px;*/
   /*background-repeat: no-repeat;*/
   height: 400px; /* give header some height to display the background image */
@@ -78,7 +79,8 @@ footer {
         /* End Erase */
         }
         .cards img {
-          max-width: cover;
+          max-width: 95%;
+          height: auto;
         }
     }
     
